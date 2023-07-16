@@ -1,0 +1,166 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/*ヘッダー*/
+.header-container{
+  height:90px;
+  background-color:#26d0c9;
+}
+
+.header-container h2{
+  float:left;
+  font-size:36px;
+  color:#fff;
+  font-weight:normal;
+  padding:20px 40px;
+}
+
+.header-container p{
+  float:left;
+  color:#fff;
+  padding:33px 20px;
+}
+
+/* ヘッダー */
+
+.header{
+  height:90px;
+  color:#fff;
+  background-color:#26d0c9;
+}
+
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+}
+
+.header-list li{
+  float:left;
+  padding:33px 20px;
+}
+
+/* メインビジュアル  */
+.main{
+  margin:100px 80px;
+}
+
+.main h1{
+  font-size:140px;
+}
+
+.main h1 span{
+  color:#ff4a4a;
+}
+
+.main h2{
+ font-size:60px
+}
+
+
+/* レッスンエリア  */
+.lesson-area{
+  height:500px;
+  padding:0px 80px 100px 80px;
+}
+
+.lesson-title{
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+}
+
+.lesson-category{
+  float:left;
+  padding-right:40px;
+  padding-top:50px;
+}
+
+.lesson-category p{
+  font-size:24px;
+  padding-top:30px;
+}
+/* お問い合わせフォーム  */
+
+.contact-form{
+ padding-top:100px;
+}
+
+.section-title{
+  font-size:28px;
+  margin-left:80px;
+  margin-right:80px;
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+}
+
+input, textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  margin-left:80px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  color:#889eab;
+  background-color:#dee7ec;
+}
+
+.address-p{
+  padding-top:50px;
+  padding-left:80px;
+}
+
+.ask-p{
+  padding-top:10px;
+  padding-left:80px;
+}
+
+.hissu-p{
+  padding-left:80px; 
+}
+
+.contact-submit{
+  margin-bottom:100px;
+}
+
+/* フッター  */
+
+.footer{
+  height:200px;
+  background-color:#2f5167;
+}
+
+.footer-logo{
+  color:#fff;
+  font-size:32px;
+  float:left;
+  padding:40px ;
+}
+
+.footer-list{
+  float:right;
+  padding:40px 40px;
+}
+
+.footer-list li{
+  color:#fff;
+  padding-bottom:20px;
+}
